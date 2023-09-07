@@ -17,6 +17,12 @@ h2{
     padding: 30px;
 }
 
+.heart-red{
+    text-align: right;
+    font-size: 25px;
+    color:#d32f2f;
+}
+
 .heart-grey{
     font-size: 25px;
     color: #ccc ;

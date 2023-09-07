@@ -22,21 +22,21 @@
                     <h2>Sayı Tahmin Etme</h2>
                 </div>
                 <div id="hearts" class="col-md-12 text-align-right">
-                    <i class="fa-sharp fa-solid fa-heart "style="color:  #c80923;"></i>
-                    <i class="fa-sharp fa-solid fa-heart" style="color: #c80923;"></i>
-                    <i class="fa-sharp fa-solid fa-heart" style="color: #c80923;"></i>
+                    <i class="fa-sharp fa-solid fa-heart heart-red"></i>
+                    <i class="fa-sharp fa-solid fa-heart heart-red" ></i>
+                    <i class="fa-sharp fa-solid fa-heart heart-red"></i>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <h5>Aklından bir sayı tut</h5>
-                    <input type="number" class="form-control" placeholder="Sayı girin">
+                    <input id="number" type="number" class="form-control" placeholder="Sayı girin">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                  <button id="btn-guess" class="btn btn-light btn-block btn-purple btn-show"> Tahmin Et </button>
-                  <button id="btn-guess" class="btn btn-secondary btn-block btn-hide"> Tekrar Dene </button>  
+                  <button id="btn-guess" class="btn btn-light btn-block btn-purple btn-show" onclick="Guess();"> Tahmin Et </button>
+                  <button id="btn-again" class="btn btn-secondary btn-block btn-hide" onclick="Again();" > Tekrar Oyna </button>  
                 </div>
                 <div class="col-md-12">
                     <p id="result"></p>
